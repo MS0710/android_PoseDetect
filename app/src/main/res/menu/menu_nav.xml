@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_sport"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="@string/nav_sport"/>
+        <item
+            android:id="@+id/nav_remind"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="@string/nav_remind"/>
+        <item
+            android:id="@+id/nav_remindList"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="@string/nav_remindList" />
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="@string/nav_calendar" />
+        <item
+            android:id="@+id/nav_timer"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="@string/nav_timer" />
+        <!--
+        <item
+            android:id="@+id/nav_inbox"
+            android:icon="@android:drawable/sym_action_email"
+            android:title="@string/nav_inbox"/>
+        <item
+            android:id="@+id/nav_drafts"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="@string/nav_drafts"/>
+        <item
+            android:id="@+id/nav_sent"
+            android:icon="@android:drawable/ic_menu_send"
+            android:title="@string/nav_sent"/>
+        <item
+            android:id="@+id/nav_trash"
+            android:icon="@android:drawable/ic_menu_delete"
+            android:title="@string/nav_trash"/>
+        -->
+    </group>
+
+</menu>
